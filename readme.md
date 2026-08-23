@@ -1,10 +1,10 @@
-<img src="https://github.com/kkamara/useful/blob/main/stripe-payments-php-reactjs-app.png?raw=true" alt="stripe-payments-php-reactjs-app.png" width=""/>
+<img src="https://github.com/kkamara/useful/blob/main/stripe-payments-php-react-app.png?raw=true" alt="stripe-payments-php-react-app.png" width=""/>
 
-<img src="https://github.com/kkamara/useful/blob/main/stripe-payments-php-reactjs-app2.png?raw=true" alt="stripe-payments-php-reactjs-app2.png" width=""/>
+<img src="https://github.com/kkamara/useful/blob/main/stripe-payments-php-react-app2.png?raw=true" alt="stripe-payments-php-react-app2.png" width=""/>
 
-# Stripe Payments PHP Reactjs App [![Tests Pipeline](https://github.com/kkamara/stripe-payments-php-reactjs-app/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/stripe-payments-php-reactjs-app/actions/workflows/build.yml)
+# Stripe Payments PHP React App [![Tests Pipeline](https://github.com/kkamara/stripe-payments-php-react-app/actions/workflows/build.yml/badge.svg)](https://github.com/kkamara/stripe-payments-php-react-app/actions/workflows/build.yml)
 
-(29-Nov-2023) In Stripe test mode buy a sample product at £5.00. A Laravel 10.x Reactjs app.
+(29-Nov-2023) In Stripe test mode buy a sample product at £5.00. A Laravel 10.x React app.
 
 * [Using Thunder Client?](#using-thunder-client)
 
@@ -32,7 +32,7 @@
 
 [Thunder client](https://www.thunderclient.com/) Visual Studio Code extension.
 
-[thunder-collection_PHP Reactjs Boilerplate.json](https://github.com/kkamara/php-reactjs-boilerplate/blob/main/database/thunder-collection_PHP%20Reactjs%20Boilerplate.json)
+[thunder-collection_PHP React Boilerplate.json](./database/thunder-collection_PHP%20React%20Boilerplate.json)
 
 ## Installation
 * [https://laravel.com/docs/10.x/installation](https://laravel.com/docs/10.x/installation)
@@ -76,8 +76,6 @@ POST       api/user/register ................... Api\UserController@register
 ...
 ```
 
-View the api collection [here](https://documenter.getpostman.com/view/17125932/TzzAKvVe).
-
 ## Redis Queue
 
 You can test the `/job` endpoint to invoke a job example you can then view at 
@@ -96,7 +94,7 @@ sail artisan queue:listen redis --queue stuff
 php artisan test --filter api
 ```
 
-View the unit test code [here](https://raw.githubusercontent.com/kkamara/php-reactjs-boilerplate/main/tests/Unit/Api/UsersTest.php).
+View the unit test code [here](./tests/Unit/Api/UsersTest.php).
 
 ## Browser Tests
 
@@ -111,7 +109,7 @@ You can test the `/mail` endpoint to send a test mail you can then view at `:802
 
 ![docker-mailhog3.png](https://raw.githubusercontent.com/kkamara/useful/main/docker-mailhog3.png)
 
-Mail environment credentials are at [.env](https://raw.githubusercontent.com/kkamara/php-reactjs-boilerplate/main/.env.example).
+Mail environment credentials are at [.env](.env.example).
 
 The [mailhog](https://github.com/mailhog/MailHog) docker image runs at `http://localhost:8025`.
 

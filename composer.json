@@ -1,14 +1,14 @@
 {
-    "name": "kkamara/stripe-payments-php-reactjs-app",
+    "name": "kkamara/stripe-payments-php-react-app",
     "version": "0.1.0",
     "type": "project",
-    "description": "(29-Nov-2023) In Stripe test mode buy a sample product at £5.00. A Laravel 10.x Reactjs app.",
+    "description": "(29-Nov-2023) In Stripe test mode buy a sample product at £5.00. A Laravel 10.x React app.",
     "keywords": [
         "web",
         "web-app",
         "gdpr",
         "api",
-        "reactjs",
+        "react",
         "tests",
         "testing"
     ],
